@@ -161,6 +161,25 @@ footer {
     margin-top: 5%;
 }
 
+
+/* Medias e outros*/
+
+@media screen and (max-width: 767px) {
+    .principal {
+        font-size: 0.5em;
+    }
+    .bg-separator h2 {
+        font-size: 15px;
+        text-align: center;
+    }
+    .sec2 {
+        height: 110vh;
+    }
+    header nav {
+        display: none;
+    }
+}
+
 ::-webkit-scrollbar {
     width: 0.3em;
 }
