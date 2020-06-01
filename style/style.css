@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Harlow;
+    src: url("fonts/Harlow\ Solid\ Italic.ttf");
+}
+
+
+/*
+body {
+    background-color: #f3f3f3;
+}*/
+
+header h1 {
+    color: #88bdd6;
+    font-family: harlow;
+    position: absolute;
+    font-size: 3em;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+header h1:hover {
+    color: whitesmoke;
+}
+
+.menu {
+    position: absolute;
+    margin-top: 2%;
+    margin-right: 5%;
+    margin-left: 60%;
+    font-size: 1.2em;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 0.5em;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul li a:hover {
+    color: rgb(93, 170, 214);
+    border-bottom: rgb(93, 170, 214) solid;
+}
+
+.principal {
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.principal p {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    font-size: 3em;
+}
+
+.sec1 {
+    width: 90%;
+    left: 5%;
+    position: relative;
+    min-height: 100vh;
+}
+
+.sec1 h2 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+.sec2 {
+    background-color: rgb(13, 21, 31);
+    position: relative;
+    min-height: 100vh;
+}
+
+.sec2 h2 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 3em;
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+
+.bg-separator {
+    background-image: url("../images/bgagua.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+footer {
+    background-color: rgb(8, 12, 19);
+    position: absolute;
+    width: 100%;
+    min-height: 20vh;
+    color: white;
+    text-align: center;
+}
+
+.footermenu {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.footermenu ul {
+    margin-top: 3%;
+}
+
+.footermenu ul li {
+    padding: 10px;
+    display: inline;
+    text-decoration: none;
+}
+
+.footermenu ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.footermenu ul a:hover {
+    border-bottom: solid;
+}
+
+.ajustar {
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    margin-top: 5%;
+}
+
+::-webkit-scrollbar {
+    width: 0.3em;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(61, 102, 107, 0.8);
+}
+
+::selection {
+    background-color: #272727;
+    color: #f7f7f7;
+}
+
+::moz-selection {
+    background-color: #d1eefe;
+    color: #1e87f0;
+}
