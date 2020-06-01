@@ -9,6 +9,10 @@
     src: url("fonts/Harlow\ Solid\ Italic.ttf");
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 
 /*
 body {
