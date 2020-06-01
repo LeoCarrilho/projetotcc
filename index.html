@@ -5,13 +5,14 @@
 <title>AquaGood</title>
 <link href=style/style.css rel=stylesheet>
 <link href=https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/css/uikit.min.css rel=stylesheet>
+<script src="https://unpkg.com/infinite-scroll@3/dist/infinite-scroll.pkgd.min.js"></script>
 <header>
     <h1>AquaGood</h1>
     <nav class=menu>
         <ul>
             <li><a href=#>Inicio</a>
-                <li><a href=#>Sobre</a>
-                    <li><a href=#>Contribua</a>
+                <li><a href=#sobre>Sobre</a>
+                    <li><a href=#contribua>Contribua</a>
                         <li><a href=#>Login</a>
         </ul>
     </nav>
@@ -19,7 +20,7 @@
 <div class=wrapper>
     <div class=principal>
         <p>NOSSA MISSÃO É LEVAR ÁGUA<br><span style=color:#88bdd6;margin-left:4.6em>PARA QUEM PRECISA</span></div>
-    <div class=sec1>
+    <div id=sobre class=sec1>
         <h2>Sobre</h2>
         <ul class=uk-tab data-uk-tab="{connect:'#my-id'}">
             <li><a href="">Objetivos</a>
@@ -42,10 +43,10 @@
         </ul>
     </div>
 </div>
-<div class=bg-separator>
+<div class="bg-separator">
     <h2 style=color:#fff>“Assegurar a disponibilidade e gestão sustentável da água e saneamento para todos”</h2>
 </div>
-<div class=sec2>
+<div id="contribua" class="sec2">
     <h2>Contribua</h2>
     <div class=ajustar>
         <div class=uk-child-width-1-2@s uk-grid>
